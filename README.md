@@ -1,4 +1,4 @@
 # Map Frontend with React
 
-Map backend: https://github.com/jantopolovec/map_back_end
+Map Backend: https://github.com/jantopolovec/map_back_end
  
