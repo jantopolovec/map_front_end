@@ -100,7 +100,7 @@ function add()
             map.addObject(parisMarker);
 
 
-          document.getElementById("lat").innerHTML =  response.data.wearesult[0].lat;
+         /* document.getElementById("lat").innerHTML =  response.data.wearesult[0].lat;
           document.getElementById("lon").innerHTML =  response.data.wearesult[0].lon;
           document.getElementById("temp").innerHTML =  response.data.wearesult[0].temp;
           
@@ -119,15 +119,11 @@ function add()
 
           document.getElementById("lon5").innerHTML =  response.data.wearesult[4].lon;
           document.getElementById("lat5").innerHTML =  response.data.wearesult[4].lat;
-          document.getElementById("temp5").innerHTML =  response.data.wearesult[4].temp;
+          document.getElementById("temp5").innerHTML =  response.data.wearesult[4].temp;*/
           
           
-        setShowLocations(response.data.data);
-        showLocations.forEach(element => {
-        //var marker = new H.map.Marker({lat: element.lat, lng: element.lon});
-       // document.getElementById("lat").innerHTML =  element.lat;
-       // document.getElementById("lon").innerHTML =  element.lon ;
-        })
+        
+        
       }
       })
       .catch((error)=>{
@@ -242,7 +238,7 @@ function add()
     
   </tbody>
 </table>
-<table>
+{/* <table>
 <thead>
     <tr>
       <th scope="col">Lat</th>
@@ -278,7 +274,7 @@ function add()
     </tr>
     
   </tbody>
-</table>
+</table>*/} 
 <button onClick={sendFunction} className="btn btn-outline-secondary" type="button" id="button-addon2">Pošlji</button>
 <br/><br/>
 <div id="map"></div>
