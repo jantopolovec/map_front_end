@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 var a=0;
 var platform = new H.service.Platform({
-  apikey: 'wKZKyIzo9mnLslo1d7BnmNoE7xCpt1bQG3d0'
+  apikey: apikey from heromap
 });
 var defaultLayers = platform.createDefaultLayers();
 
@@ -148,7 +148,7 @@ function add()
   
   req.headers({
     "x-rapidapi-host": "devru-latitude-longitude-find-v1.p.rapidapi.com",
-    "x-rapidapi-key": "8ff52ea582msh5e8ce0a5497a535p1602eajsn83adbd057b2f"
+    "x-rapidapi-key": apikey from map
   });
   
   
